@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+
+.valid-feedback{
+    color: red;
+   
+}
+.invalid-feedback{
+    color: red;
+}
+.col-12  .btn-primary{
+    background-color: blue;
+    color: white;
+    width:100px;
+}
