@@ -7,18 +7,18 @@
 </head>
 
 <body>
-	<form class="row g-3">
+	 <form class="row g-3">
         <div class="col-md-4">
-          <label for="first-name-input" class="form-label">First name</label>
+          <label for="first-name-input" class="form-label">First Name</label>
           <input type="text" class="form-control is-valid" id="first-name-input" value="" required>
-          <div class="valid-feedback">
+          <div class="invalid-feedback">
           First  name required
           </div>
         </div>
         <div class="col-md-4">
           <label for="last-name-input" class="form-label">Last name</label>
           <input type="text" class="form-control is-valid" id="last-name-input" value="" required>
-          <div class="valid-feedback">
+          <div class="invalid-feedback">
            Last name required
           </div>
           </div>
@@ -27,7 +27,7 @@
           <label for="email-input" class="form-label">Email Address</label>
           <div class="input-group has-validation">
             
-            <input type="text" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 email-inputFeedback" required>
+            <input type="email" class="form-control is-invalid" id="email-input" aria-describedby="inputGroupPrepend3 email-inputFeedback" required>
             <div id="email-inputFeedback" class="invalid-feedback">
               Email required
             </div>
@@ -42,15 +42,15 @@
           </div>
         </div>
         <div class="col-md-3">
-          <label for="validationServer04" class="form-label">Graduation Year</label>
-          <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+          <label for="grad-year-select" class="form-label">Graduation Year</label>
+          <select class="form-select is-invalid" id="grad-year-select" aria-describedby="grad-year-selectFeedback" required>
             <option selected disabled value="">Choose...</option>
             <option>2020</option>
             <option>2021</option>
             <option>2022</option>
             <option>2023</option>
           </select>
-          <div id="validationServer04Feedback" class="invalid-feedback">
+          <div id="grad-year-selectFeedback" class="invalid-feedback">
             Please select a valid Graduation Year.
           </div>
         </div>
